@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "673391488257",
+    "project_id": "like-transfer-task",
+    "storage_bucket": "like-transfer-task.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673391488257:android:f311dd3c54281aa2e33f00",
+        "android_client_info": {
+          "package_name": "com.example.like_transfer_task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_qPaPkppyCGuSiFwcy3pxGiX3_UysaAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
