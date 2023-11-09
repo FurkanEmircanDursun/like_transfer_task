@@ -144,13 +144,17 @@ class MainPage extends StatelessWidget {
                     SizedBox(
                       height: 10,
                     ),
+
                     Row(
                       children: [
+                        SizedBox(
+                          width: 20,
+                        ),
                         Image.asset(
                           'assets/main_page_2.png',
                         ),
                         SizedBox(
-                          width: 40,
+                          width:20,
                         ),
                         Container(
                           width: 200,
@@ -254,6 +258,7 @@ class MainPage extends StatelessWidget {
 
                       ],
                     ),
+
                     SizedBox(height: 10,),
 
                       Container(
@@ -287,6 +292,7 @@ class MainPage extends StatelessWidget {
             SizedBox(
               height: 20,
             ),
+
             Container(
                 width: MediaQuery.of(context).size.width - 40,
                 decoration: BoxDecoration(
@@ -318,11 +324,14 @@ class MainPage extends StatelessWidget {
                     ),
                     Row(
                       children: [
+                        SizedBox(
+                          width: 20,
+                        ),
                         Image.asset(
                           'assets/main_page_2.png',
                         ),
                         SizedBox(
-                          width: 40,
+                          width: 20,
                         ),
                         Container(
                           width: 200,
@@ -433,11 +442,14 @@ class MainPage extends StatelessWidget {
                     ),
                     Row(
                       children: [
+                        SizedBox(
+                          width: 20,
+                        ),
                         Image.asset(
                           'assets/main_page_2.png',
                         ),
                         SizedBox(
-                          width: 40,
+                          width: 20,
                         ),
                         Container(
                           width: 200,
@@ -548,11 +560,14 @@ class MainPage extends StatelessWidget {
                     ),
                     Row(
                       children: [
+                        SizedBox(
+                          width: 20,
+                        ),
                         Image.asset(
                           'assets/main_page_2.png',
                         ),
                         SizedBox(
-                          width: 40,
+                          width: 20,
                         ),
                         Container(
                           width: 200,
@@ -652,15 +667,7 @@ class MainPage extends StatelessWidget {
                         )
                       ],
                     ),
-                    Center(
-                      child: Container(
-                        width: MediaQuery.of(context).size.width - 100,
-                        child: Divider(
-                          color: Colors.white,
-                          thickness: 1,
-                        ),
-                      ),
-                    ),
+
                     SizedBox(
                       height: 20,
                     )
