@@ -15,7 +15,7 @@ class FirstPage extends StatelessWidget {
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(15.0),
             ),
-            color: Colors.blue, // Arka plan rengini mavi olarak ayarlar
+            color: Colors.blue,
             elevation: 5,
             child: Column(
               mainAxisSize: MainAxisSize.min,
@@ -23,7 +23,7 @@ class FirstPage extends StatelessWidget {
                 Container(
 
                   child: Image.asset(
-                    'assets/login.png', // Logo dosyasının yolunu buraya ekleyin
+                    'assets/login.png',
 
                   ),
                 ),

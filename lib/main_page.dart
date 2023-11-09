@@ -69,8 +69,8 @@ class MainPage extends StatelessWidget {
                       height: 200,
                       width: 150,
                       decoration: BoxDecoration(
-                        color: Colors.black.withOpacity(0.5), // Arka plan rengi ve opaklık
-                        borderRadius: BorderRadius.circular(10), // Kenarları yumuşatma
+                        color: Colors.black.withOpacity(0.5),
+                        borderRadius: BorderRadius.circular(10),
                       ),
                       child: Column(
                         children: [
@@ -104,14 +104,14 @@ class MainPage extends StatelessWidget {
               width: MediaQuery.of(context).size.width-40,
 
               decoration: BoxDecoration(
-                color: Colors.blue, // Arka plan rengi
-                borderRadius: BorderRadius.circular(20), // Kenar yuvarlaklığı
+                color: Colors.blue,
+                borderRadius: BorderRadius.circular(20),
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.grey.withOpacity(0.5), // Gölge rengi
-                    spreadRadius: 5, // Gölge yayılma yarıçapı
-                    blurRadius: 7, // Gölge bulanıklık yarıçapı
-                    offset: Offset(0, 3), // Gölge konumu
+                    color: Colors.grey.withOpacity(0.5),
+                    spreadRadius: 5,
+                    blurRadius: 7,
+                    offset: Offset(0, 3),
                   ),
                 ],
               ),
@@ -132,14 +132,13 @@ class MainPage extends StatelessWidget {
 
 
                         decoration: BoxDecoration(
-                          color: Colors.white, // Arka plan rengi
-                          borderRadius: BorderRadius.circular(20), // Kenar yuvarlaklığı
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(20),
                           boxShadow: [
                             BoxShadow(
-                              color: Colors.grey.withOpacity(0.5), // Gölge rengi
-                              spreadRadius: 5, // Gölge yayılma yarıçapı
-                              blurRadius: 7, // Gölge bulanıklık yarıçapı
-                              offset: Offset(0, 3), // Gölge konumu
+                              color: Colors.grey.withOpacity(0.5),
+                              spreadRadius: 5,
+                              offset: Offset(0, 3),
                             ),
                           ],
                         ),
@@ -208,14 +207,14 @@ class MainPage extends StatelessWidget {
                 width: MediaQuery.of(context).size.width-40,
 
                 decoration: BoxDecoration(
-                  color: Colors.blue, // Arka plan rengi
-                  borderRadius: BorderRadius.circular(20), // Kenar yuvarlaklığı
+                  color: Colors.blue,
+                  borderRadius: BorderRadius.circular(20),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.grey.withOpacity(0.5), // Gölge rengi
-                      spreadRadius: 5, // Gölge yayılma yarıçapı
-                      blurRadius: 7, // Gölge bulanıklık yarıçapı
-                      offset: Offset(0, 3), // Gölge konumu
+                      color: Colors.grey.withOpacity(0.5),
+                      spreadRadius: 5,
+                      blurRadius: 7,
+                      offset: Offset(0, 3),
                     ),
                   ],
                 ),
@@ -236,14 +235,14 @@ class MainPage extends StatelessWidget {
 
 
                           decoration: BoxDecoration(
-                            color: Colors.white, // Arka plan rengi
-                            borderRadius: BorderRadius.circular(20), // Kenar yuvarlaklığı
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(20),
                             boxShadow: [
                               BoxShadow(
-                                color: Colors.grey.withOpacity(0.5), // Gölge rengi
-                                spreadRadius: 5, // Gölge yayılma yarıçapı
-                                blurRadius: 7, // Gölge bulanıklık yarıçapı
-                                offset: Offset(0, 3), // Gölge konumu
+                                color: Colors.grey.withOpacity(0.5),
+                                spreadRadius: 5,
+                                blurRadius: 7,
+                                offset: Offset(0, 3),
                               ),
                             ],
                           ),
@@ -303,8 +302,8 @@ class MainPage extends StatelessWidget {
                       ],
                     ),
                     Divider(
-                      color: Colors.white, // Çizgi rengi
-                      thickness: 1, // Çizgi kalınlığı
+                      color: Colors.white,
+                      thickness: 1,
                     )
                     ,
                     Row(
@@ -318,14 +317,14 @@ class MainPage extends StatelessWidget {
 
 
                           decoration: BoxDecoration(
-                            color: Colors.white, // Arka plan rengi
-                            borderRadius: BorderRadius.circular(20), // Kenar yuvarlaklığı
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(20),
                             boxShadow: [
                               BoxShadow(
-                                color: Colors.grey.withOpacity(0.5), // Gölge rengi
-                                spreadRadius: 5, // Gölge yayılma yarıçapı
-                                blurRadius: 7, // Gölge bulanıklık yarıçapı
-                                offset: Offset(0, 3), // Gölge konumu
+                                color: Colors.grey.withOpacity(0.5),
+                                spreadRadius: 5,
+                                blurRadius: 7,
+                                offset: Offset(0, 3),
                               ),
                             ],
                           ),
@@ -385,8 +384,8 @@ class MainPage extends StatelessWidget {
                       ],
                     ),
                     Divider(
-                      color: Colors.white, // Çizgi rengi
-                      thickness: 1, // Çizgi kalınlığı
+                      color: Colors.white,
+                      thickness: 1,
                     )
                     ,
                     Row(
@@ -400,14 +399,14 @@ class MainPage extends StatelessWidget {
 
 
                           decoration: BoxDecoration(
-                            color: Colors.white, // Arka plan rengi
-                            borderRadius: BorderRadius.circular(20), // Kenar yuvarlaklığı
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(20),
                             boxShadow: [
                               BoxShadow(
-                                color: Colors.grey.withOpacity(0.5), // Gölge rengi
-                                spreadRadius: 5, // Gölge yayılma yarıçapı
-                                blurRadius: 7, // Gölge bulanıklık yarıçapı
-                                offset: Offset(0, 3), // Gölge konumu
+                                color: Colors.grey.withOpacity(0.5),
+                                spreadRadius: 5,
+                                blurRadius: 7,
+                                offset: Offset(0, 3),
                               ),
                             ],
                           ),
@@ -467,8 +466,8 @@ class MainPage extends StatelessWidget {
                       ],
                     ),
                     Divider(
-                      color: Colors.white, // Çizgi rengi
-                      thickness: 1, // Çizgi kalınlığı
+                      color: Colors.white,
+                      thickness: 1,
                     )
                     ,
                     SizedBox(height: 20,)
